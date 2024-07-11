@@ -1,63 +1,83 @@
 .header {
-    display: flex;
-    margin-top: 25px;
-    justify-content: space-between;
+  //margin: 40px 165px;
+  padding-top: 40px;
+}
+
+.header__child {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-hamburger__btn {
+  display: none;
+}
+
+.header__child-div {
+  display: flex;
+  gap: 64.34px;
+  align-items: center;
+}
+
+.header-logo {
+  top: 5.76px;
+  left: 0.76px;
+  gap: 0px;
+  opacity: 0px;
+}
+
+.header-nav {
+  display: flex;
+  gap: 40px;
+}
+
+.header-nav__link {
+  width: 51px;
+  height: 18px;
+  top: 16px;
+  left: 199px;
+  gap: 0px;
+  opacity: 0.7px;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17.63px;
+  text-align: left;
+  color: #36536b;
+}
+
+.header-btn {
+  width: 173px;
+  height: 48px;
+  left: 937px;
+  gap: 0px;
+  opacity: 0px;
+  font-family: Public Sans;
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 17.63px;
+  letter-spacing: -0.11538461595773697px;
+  text-align: left;
+  background: #ba4270;
+  color: #fbfcfe;
+  text-align: center;
+  border-radius: 26px;
+  border: none;
+  transition: all 0.3s;
+
+  &:hover {
+    color: #ba4270;
+  background: #fbfcfe;
+  border: 1px solid #ba4270;
   }
-  
-  .header__sec-img {
-    width: 112px;
-    height: 24px;
-    top: 28px;
-    left: 20px;
-  }
-  
-  .header__section-nav {
-    display: flex;
-    gap: 30px;
-    margin-top: 5px;
-  }
-  
-  .header__section-link {
-    height: 30px;
-    top: 0px;
-    color: black;
-  
-    &:hover {
-      color: rgb(162, 95, 75);
+}
+
+@media (max-width:686px) {
+    .header-nav, .header-btn {
+        display: none;
     }
-  }
-  
-  .header__sections-div {
-    width: 92px;
-    height: 2px;
-    top: 24px;
-    left: 0px;
-    background-color: rgba(162, 95, 75, 0.3);
-  }
-  
-  .header__sections-div:hover {
-    background: rgb(162, 95, 75);
-  }
-  
-  .header__sections-shop {
-    width: 92px;
-    height: 26px;
-    top: 29px;
-    left: 828px;
-    display: flex;
-    justify-content: space-between;
-  }
-  
-  .header__sections-img {
-    width: 16px;
-    height: 20px;
-    top: 0px;
-    left: 0px;
-  }
-  
-  .header__sections-image {
-    width: 20px;
-    height: 18px;
-    top: 3px;
-    left: 72px;
-  }
+
+    .header-hamburger__btn {
+        display: block;
+    }
+}
