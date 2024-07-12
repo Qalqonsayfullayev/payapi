@@ -58,14 +58,14 @@
   @media only screen and (max-width: 768px) {
     .intro-father {
       flex-direction: column-reverse;
-      margin-left: 497px;
+      margin-top: 97px;
     }
     .intro-img {
       margin-bottom: 0px;
       margin-left: 150px;
     }
     .intro-child__btn {
-      left: 860px;
+      left: 360px;
       position: absolute;
     }
     .intro-child__p {
@@ -73,6 +73,10 @@
     }
     .intro {
         margin-top: 0px;
+      }
+
+      .intro-child__h3 {
+        width: 100%;
       }
   }
   
@@ -85,11 +89,10 @@
   @media only screen and (max-width: 375px) {
     .intro-father {
       flex-direction: column;
-      margin-left: 497px;
       text-align: center;
       order: -1;
       align-items: center;
-      margin-left: 0px;
+      margin-left: 200px;
     }
     .intro-img {
       margin-bottom: 0px;

@@ -4,11 +4,11 @@
 
   .form-father {
     display: flex;
-    gap: 125px;
+    justify-content: space-between;
   }
 
   .form-img {
-    width: 565px;
+    width: 100%;
     height: 500px;
     top: 1359px;
     left: 165px;
@@ -45,10 +45,10 @@
   @media only screen and (max-width: 768px) {
     .form-child {
       margin-top: -200px;
+      align-items: center;
     }
     .form-father {
       flex-direction: column;
-      margin-left: 497px;
       text-align: center;
     }
 
@@ -61,7 +61,7 @@
 
     .form__p {
       text-align: center;
-      width: 573px;
+      width: 100%;
       height: 56px;
       top: 80px;
     }
@@ -73,7 +73,7 @@
     }
     .form-father {
       flex-direction: column;
-      margin-left: 497px;
+      //margin-left: 497px;
       text-align: center;
     }
 
@@ -86,10 +86,10 @@
 
     .form__p {
       text-align: center;
-      width: 328px;
+      width: 100%;
       height: 112px;
       top: 60px;
-      margin-left: 100px;
+      //margin-left: 100px;
     }
   }
 }

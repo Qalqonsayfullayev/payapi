@@ -35,37 +35,36 @@
     @media only screen and (max-width: 768px) {
       .simple-father {
         flex-direction: column;
-        margin-left: 497px;
+        //margin-left: 497px;
         text-align: center;
       }
 
       .simple-text {
-        margin-top: -448px;
+        //margin-top: -648px;
         margin-left: 100px;
       }
 
       .simple-img {
         order: -1;
         margin-top: 100px;
-        margin-left: -150px;
+        //margin-left: -150px;
       }
 
       @media only screen and (max-width: 375px) {
         .simple-father {
           flex-direction: column;
-          margin-left: 497px;
+          //margin-left: 497px;
           text-align: center;
         }
 
         .simple-text {
-          margin-top: -448px;
+          margin-top: -248px;
           margin-left: 100px;
         }
 
         .simple-img {
           order: -1;
           margin-top: 100px;
-          margin-left: -150px;
         }
 
         .simple__h2 {
@@ -74,7 +73,7 @@
 
         .simple__p {
           text-align: center;
-          width: 328px;
+          width: 100%;
           height: 112px;
           top: 60px;
           margin-left: 50px;
